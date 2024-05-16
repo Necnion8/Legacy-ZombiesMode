@@ -17,6 +17,7 @@ Hypixel Zombies のプレイを強化するクライアントMod<br>
 ## 前提
 - Legacy Fabric
 - Minecraft 1.8.9
+- Hypixel サーバー (言語設定を英語か日本語に設定してください)
 
 
 ## デバッグ用サブコマンド
