@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "legacyzombiesmode",
+  "version": "${version}",
+  "name": "ZombiesMode",
+  "description": "for Hypixel Zombies",
+  "authors": [
+    "Necnion8"
+  ],
+  "contact": {
+    "sources": "https://github.com/Necnion8/Legacy-ZombiesMode",
+    "homepage": "https://github.com/Necnion8/Legacy-ZombiesMode"
+  },
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.gmail.necnionch.mymod.legacyzombiesmode.ZombiesModeMod"
+    ]
+  },
+  "mixins": [
+    "legacyzombiesmode.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "minecraft": "1.8.9"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

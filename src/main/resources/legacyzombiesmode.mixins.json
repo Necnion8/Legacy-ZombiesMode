@@ -1,0 +1,24 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.gmail.necnionch.mymod.legacyzombiesmode.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "ArmorFeatureRendererMixin",
+    "CapeFeatureRendererMixin",
+    "ChatHudMixin",
+    "ClientPlayerEntityMixin",
+    "ClientPlayNetworkHandlerMixin",
+    "EntityRendererAccessor",
+    "EntityRendererMixin",
+    "InGameHudMixin",
+    "ItemRendererAccessor",
+    "LivingEntityRendererMixin",
+    "StuckArrowsFeatureRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
